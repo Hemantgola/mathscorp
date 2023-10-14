@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Varela+Round&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+#main1{
+    display: block;
+    border: 2px solid grey;
+    margin-top: 200px;
+    margin-left: 650px;
+    width: 250px;
+    height: 300px;
+    border-radius: 20px;
+    font-family: 'Varela Round', sans-serif;
+    text-align: center;
+}
+#main1 h2, h3, h4, input, button{
+    margin: 20px 0px;
+    font-family: 'Varela Round', sans-serif;
+}
+#main1 input{
+    height: 30px;
+    width: 150px;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+#main1 button{
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+    color: white;
+    background-color: purple;
+}
+#main1 button:hover{
+    color: purple;
+    background-color: white;
+    border: none;
+}
+.main2{
+    display: flex;
+}
+.left{
+    width: 25%;
+    background-color: darkslategray;
+    text-align: center;
+    height: 707px;
+}
+.right{
+    width: 75%;
+    text-align: center;
+}
+.right li{
+    list-style: none;
+    font-family: 'Varela Round', sans-serif;
+}
+.left button{
+    height: 30px;
+    width: 150px;
+    border-radius: 10px;
+    color: white;
+    background-color: purple;
+}
+.left button:hover{
+    color: purple;
+    background-color: white;
+}
+h5{
+    font-family: 'Varela Round', sans-serif;
+}
+.linkpost{
+    font-size: 20px;
+}
+.linkpost input{
+    height: 30px;
+    width: 400px;
+    padding: 5px;
+    border-radius: 10px;
+}
+.linkpost button{
+    margin-left: 10px;
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+    color: white;
+    background-color: purple;
+    padding: 5px;
+}
+.linkpost button:hover{
+    color: purple;
+    background-color: white;
+}
